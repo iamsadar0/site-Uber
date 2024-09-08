@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto';
+}
+
+ul {
+    padding: 0;
+}
+
+.menu__wrapper {
+    background-color: rgb(33, 33, 33);
+    height: 50px;
+}
+
+
+
+.menu {
+    padding: 13px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    list-style-type: none;
+
+}
+
+.menu__link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu .menu__item {
+    border-right: 2px dotted white;
+    padding-right: 28px;
+
+}
+
+.menu__item:last-child {
+    border-right: none;
+}
+
+/* ////////////////header ///////////////*/
+
+
+header .subheader {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    min-height: 87px;
+
+}
+
+.subheader__logo {
+    display: block;
+    text-decoration: none;
+    max-width: 245px;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+
+.subheader .subheader__official {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 250;
+    opacity: 0.6;
+    margin-top: 6px;
+    line-height: 11px;
+}
+
+.subheader__call {
+    display: block;
+    margin-top: 19px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 300;
+    opacity: 0.6;
+}
+
+.subheader__phone {
+    display: block;
+    text-align: right;
+    margin-top: 8px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    line-height: 17px;
+}
+
+.subheader__button {
+    width: 172px;
+    height: 46px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(0.00deg, rgb(30, 172, 199), rgb(76, 226, 255) 100%);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 21px;
+}
+
+.button:hover {
+    background: linear-gradient(0.00deg, rgb(22, 126, 147), rgb(48, 142, 161) 100%);
+}
